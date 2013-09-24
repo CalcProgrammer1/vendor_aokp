@@ -4,9 +4,6 @@ $(call inherit-product, device/samsung/quincyatt/full_quincyatt.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
-# Inherit GSM common stuff
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
-
 # quincyatt overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/quincyatt
 
